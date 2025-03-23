@@ -194,6 +194,29 @@ div.container {
   max-width: 960px;
   margin-bottom: 0px;
   transition: transform 0.3s ease;
+  width: 100%;
+}
+
+#visitor-map {
+  width: 100%;
+  text-align: center;
+}
+
+#visitor-map > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#visitor-map img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .section:hover {
